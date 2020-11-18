@@ -14,6 +14,11 @@
 
 - Add transitions scale. Issue #1079, PR #1272
 
+- BREAKING: Upgrade to Emotion 11, and `csstype` 3. PR 1261
+  - We are now depending on `@emotion/react@11` instead of `@emotion/core@10`
+  - `sx` prop types are still global, and we opt in for Emotion `css` prop types (This will change in the future.)
+  - Refer to [Emotion 11 release notes](https://emotion.sh/docs/emotion-11) for more information.
+
 ## v0.4.0-rc.12 2020-11-18
 
 ### `theme-ui`
